@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": { 
+            "model": "electronics:block/silver_block" 
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "electronics:silver_block"
+    }
+  ],
+  "result": {
+    "item": "electronics:silver",
+    "count": 9
+  }
+}

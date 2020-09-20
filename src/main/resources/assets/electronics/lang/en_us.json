@@ -1,0 +1,9 @@
+{
+    "item.electronics.silver": "Silver",
+    "block.electronics.silver_block": "Silver Block",
+    "itemGroup.electronicsmodtab": "Electronics",
+    "tooltip.electronics.hold_shift_information": "§7Hold §lSHIFT §r§7for more information !",
+    "tooltip.electronics.silver_symbol": "§7Symbol (Ag)",
+    "tooltip.electronics.silver_atomic_number": "§7Atomic Number (47)",
+    "block.electronics.silver_ore": "Silver Ore"
+}

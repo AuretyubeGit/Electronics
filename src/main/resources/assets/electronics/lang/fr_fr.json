@@ -1,0 +1,9 @@
+{
+    "item.electronics.silver": "Argent",
+    "block.electronics.silver_block": "Bloque d'Argent",
+    "itemGroup.electronicsmodtab": "Electronics",
+    "tooltip.electronics.hold_shift_information": "§7Maintenez §lSHIFT §r§7pour plus d'informations !",
+    "tooltip.electronics.silver_symbol": "§7Symbole (Ag)",
+    "tooltip.electronics.silver_atomic_number": "§7Numéro Atomique (47)",
+    "block.electronics.silver_ore": "Minerai d'Argent"
+}
