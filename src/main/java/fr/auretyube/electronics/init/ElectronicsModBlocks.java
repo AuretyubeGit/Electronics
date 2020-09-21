@@ -19,17 +19,20 @@ public class ElectronicsModBlocks {
 	
 	public static final Block SILVER_BLOCK = new Block(Block.Properties.from(Blocks.IRON_BLOCK)).setRegistryName(ElectronicsMod.MODID, "silver_block");
 	public static final Block SILVER_ORE = new OreBlock(Block.Properties.from(Blocks.IRON_ORE)).setRegistryName(ElectronicsMod.MODID, "silver_ore");
+	public static final Block COPPER_ORE = new OreBlock(Block.Properties.from(Blocks.IRON_ORE)).setRegistryName(ElectronicsMod.MODID, "copper_ore");
 	
 	@SubscribeEvent
 	public static void registerBlocks(final RegistryEvent.Register<Block> event) {
 		event.getRegistry().register(SILVER_BLOCK);
 		event.getRegistry().register(SILVER_ORE);
+		event.getRegistry().register(COPPER_ORE);
 	}
 	
 	@SubscribeEvent
 	public static void registerBlockItems(final RegistryEvent.Register<Item> event) {
 		event.getRegistry().register(new BlockItem(SILVER_BLOCK, new Item.Properties().group(ElectronicsModItemGroup.INSTANCE)).setRegistryName(SILVER_BLOCK.getRegistryName()));
 		event.getRegistry().register(new BlockItem(SILVER_ORE, new Item.Properties().group(ElectronicsModItemGroup.INSTANCE)).setRegistryName(SILVER_ORE.getRegistryName()));
+		event.getRegistry().register(new BlockItem(COPPER_ORE, new Item.Properties().group(ElectronicsModItemGroup.INSTANCE)).setRegistryName(COPPER_ORE.getRegistryName()));
 	}
 	
 }

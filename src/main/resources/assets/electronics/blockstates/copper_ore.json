@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": { 
+            "model": "electronics:block/copper_ore" 
+        }
+    }
+}

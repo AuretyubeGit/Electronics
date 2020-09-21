@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "electronics:copper_ore"
+  },
+  "result": "electronics:copper",
+  "experience": 0.7,
+  "cookingtime": 200
+}
