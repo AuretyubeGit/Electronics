@@ -9,5 +9,9 @@
     "item.electronics.copper": "Copper",
     "tooltip.electronics.copper_symbol": "§7Symbol (Cu)",
     "tooltip.electronics.copper_atomic_number": "§7Atomic Number (29)",
-    "block.electronics.copper_ore": "Copper Ore"
+    "block.electronics.copper_ore": "Copper Ore",
+    "item.electronics.silver_wafer": "Silver Wafer",
+    "item.electronics.copper_plate": "Copper Plate",
+    "item.electronics.printed_circuit": "Printed Circuit",
+    "item.electronics.ssd": "SSD"
 }

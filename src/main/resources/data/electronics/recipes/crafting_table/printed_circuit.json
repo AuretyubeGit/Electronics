@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "EDE",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dried_kelp"
+        },
+        "E": {
+            "item": "electronics:silver_wafer"
+        },
+        "D": {
+            "item": "electronics:copper_plate"
+        }
+    },
+    "result": {
+        "item": "electronics:printed_circuit",
+        "count": 1
+    }
+}

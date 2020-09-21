@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "electronics:copper"
+    },
+    "result": "electronics:copper_plate",
+    "count": 1
+}

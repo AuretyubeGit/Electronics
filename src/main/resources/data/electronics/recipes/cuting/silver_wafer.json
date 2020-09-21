@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "electronics:silver"
+    },
+    "result": "electronics:silver_wafer",
+    "count": 1
+}

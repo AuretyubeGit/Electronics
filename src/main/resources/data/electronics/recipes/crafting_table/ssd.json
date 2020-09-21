@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "EI#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chest"
+        },
+        "E": {
+            "item": "electronics:silver"
+        },
+        "I": {
+            "item": "electronics:printed_circuit"
+        }
+    },
+    "result": {
+        "item": "electronics:ssd",
+        "count": 1
+    }
+}
