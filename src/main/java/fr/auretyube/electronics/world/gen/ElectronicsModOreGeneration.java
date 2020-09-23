@@ -15,10 +15,10 @@ public class ElectronicsModOreGeneration {
 	public static void generateOres() {
 		for(Biome biome : ForgeRegistries.BIOMES) {
 			ConfiguredPlacement<CountRangeConfig> silverOreConfig = Placement.COUNT_RANGE.configure(new CountRangeConfig(24, 0, 0, 38));
-			biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ElectronicsModBlocks.SILVER_ORE.getDefaultState(), 10)).withPlacement(silverOreConfig));
+			biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ElectronicsModBlocks.SILVER_ORE.get().getDefaultState(), 9)).withPlacement(silverOreConfig));
 			
 			ConfiguredPlacement<CountRangeConfig> copperOreConfig = Placement.COUNT_RANGE.configure(new CountRangeConfig(16, 0, 0, 38));
-			biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ElectronicsModBlocks.COPPER_ORE.getDefaultState(), 10)).withPlacement(copperOreConfig));
+			biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, ElectronicsModBlocks.COPPER_ORE.get().getDefaultState(), 9)).withPlacement(copperOreConfig));
 		}
 	}
 	
