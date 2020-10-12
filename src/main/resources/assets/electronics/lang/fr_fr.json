@@ -13,5 +13,6 @@
     "item.electronics.silver_wafer": "Wafer d'Argent",
     "item.electronics.copper_plate": "Plaque de cuivre",
     "item.electronics.printed_circuit": "Circuit Imprimé",
-    "item.electronics.ssd": "SSD"
+    "item.electronics.ssd": "SSD",
+    "item.electronics.processor": "Processeur"
 }

@@ -3,6 +3,7 @@ package fr.auretyube.electronics;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import fr.auretyube.electronics.init.ElectronicsModBiomes;
 import fr.auretyube.electronics.init.ElectronicsModBlocks;
 import fr.auretyube.electronics.init.ElectronicsModItems;
 import fr.auretyube.electronics.world.gen.ElectronicsModOreGeneration;
@@ -10,6 +11,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -41,8 +43,14 @@ public class ElectronicsMod {
 		
 		ElectronicsModItems.ITEMS.register(eventBus);
 		ElectronicsModBlocks.BLOCKS.register(eventBus);
+		ElectronicsModBiomes.BIOMES.register(eventBus);
 		
 		MinecraftForge.EVENT_BUS.register(this);
+	}
+	
+	@SubscribeEvent
+	public static void onRegisterBiomes(final RegistryEvent.Register<Biome> event) {
+		ElectronicsModBiomes.registerBiomes();
 	}
 	
 	@SubscribeEvent
@@ -55,7 +63,6 @@ public class ElectronicsMod {
 					blockItem.setRegistryName(block.getRegistryName());
 					registry.register(blockItem);
 				});
-
 	}
 
 	private void setup(final FMLCommonSetupEvent event) {

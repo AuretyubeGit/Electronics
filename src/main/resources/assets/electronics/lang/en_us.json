@@ -13,5 +13,6 @@
     "item.electronics.silver_wafer": "Silver Wafer",
     "item.electronics.copper_plate": "Copper Plate",
     "item.electronics.printed_circuit": "Printed Circuit",
-    "item.electronics.ssd": "SSD"
+    "item.electronics.ssd": "SSD",
+    "item.electronics.processor": "Processor"
 }
